@@ -1,14 +1,15 @@
 // Variáveis Adicionais
-let msg1=document.getElementById("msg1");
-let msg2=document.getElementById("msg2");
+let msg=document.getElementById("msg1");
+
 
 // Variáveis com a história
-let string1 = "Você é um explorador que está em busca do lendário Cálice Sagrado, que todos almejam. Você chega até uma estalgem no meio da estrada e, como já é de noite, resolve dormir por lá.";
-let string2 = "Depois de acertar seu quarto com o dono, resolve ir até a lareira, onde várias pessoas estão cantando, dançando ou apenas apreciando uma boa bebida na mesa, você resolve sentar e apreciar a vista...";
+let string1 = `Em uma simples estalagem, no meio do nada, mora um velho apostador. Todos que passam por lá devem ouvir sua poesia, ao final dela, devem girar um dado de 100 lados. Se cair maior do que 50, a pessoa ganha um desejo, se perder... Nunca mais volta.`
+let string2 = `Ouvindo essa história, um(a) jovem aventureiro(a), chamadado(a) ${nome}, decide enfrentar o velho, com o desejo e adquirir o poder de ${poder}. Quando chega à taverna o velho lhe pede para sentar-se a frente dele. O(a) jovem se senta e o velho começa a contar:`
+let string3 = `"No jovem, um espírito determinado brilha no ar, Anseia pelo poder, sem se cansar, Àquele que concede, vai enfrentar, Ao lançar os dados, a sorte irá falar.", depois entrega o dado. Ele(a) pega os dados e o lança... `
+let string4 = ``
 
 // Código Principal
-Escrever(string1,msg1);
-Escrever(string2,msg2);
+
  
 
 
@@ -31,7 +32,7 @@ Escrever(string2,msg2);
 
 // Funções
 // 1. Função de digitação
-function Escrever(string,msg) {
+function Escrever(string) {
   var i = 0; 
     
 function Caracteres() {
