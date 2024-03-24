@@ -1,25 +1,47 @@
 *{
   margin:0;
   padding:0;
+  font-family: 'fonte';
+  color:bisque;
+}
+@font-face {
+  font-family: fonte;
+  src: url(fonts/OldLondonAlternate.ttf);
 }
 body{
   font-size: 40px;
-
+  background-image: url("img/taverna.webp");
   text-align: center;
+  background-attachment: fixed;
+}
+h1{
+  color:darkgrey;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-color: brown;
 }
 
 section{
   width: 80%;
-  background-color: black;
+  background-image: url("img/madeira.jpg");
   margin: 0 auto;
   height: 100vh;
   overflow-wrap: break-word;
+  box-shadow: 0px 0px 12px 10px black; 
 }
 
 p{
-  
-  color: rgb(241, 84, 84);
-  font-size: 30px;
+  padding: 5%;
+  font-size: 35px;
   text-align: justify;
   text-indent: 5%;
+}
+
+button{
+  width: 25%;
+  height: 5%;
+  border-radius: 3px;
+  font-size: 30px;
+  box-shadow: 0px 0px 12px -2px; 
+  background-color: rgba(255,255,255,0.2);
 }
